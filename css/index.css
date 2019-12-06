@@ -1,0 +1,136 @@
+.margin-top{
+    margin-top: 10px;
+}
+.header-one, .header-area.stick, .center-bg, .mobile-menu-area {
+    background: #001529;
+}
+
+.bg-wrapper img, .intro-bg img {
+    opacity: 1;
+}
+
+.main-menu ul.navbar-nav li a, .main-menu ul.navbar-nav li a:hover {
+    color: #fff !important;
+    /*opacity: .7;*/
+}
+
+.meanmenu-reveal {
+    background-color: #fff;
+}
+
+.main-menu ul.navbar-nav li a:hover {
+    opacity: 1;
+    text-underline: 0;
+}
+
+.s-menu, .s-menu:hover {
+    /*opacity: .7;*/
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+}
+
+.s-menu:hover {
+    opacity: 1;
+}
+
+.main-menu > ul.navbar-nav > li > a::before {
+    border-color: #fff;
+}
+
+.wow {
+    text-align: center;
+    color: #fff;
+}
+
+.layer-1 h2, .layer-2 p {
+    color: #fff;
+    max-width: 100%;
+}
+
+.ready-btn {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+.single-testi p {
+    color: rgba(0, 0, 0, .65);
+    text-align: center;
+}
+
+.single-testi-title {
+    text-align: center;
+}
+
+.single-testi-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 196px;
+}
+
+.single-testi .single-testi-number {
+    font-size: 48px;
+    color: #1890ff;
+    font-weight: 600;
+}
+
+.single-testi .single-testi-title {
+    color: rgba(0, 0, 0, .65);
+    transition: color .45s cubic-bezier(.645, .045, .355, 1);
+}
+
+.investment-area h2 {
+    text-align: center;
+    font-weight: 500;
+    color: rgba(0, 0, 0, .65);
+    margin-bottom: 80px;
+}
+
+.investment-area table {
+    width: 100%;
+    text-align: center;
+    border-color: #eaeaea;
+    margin-top: 60px;
+
+}
+
+.investment-area tr {
+    height: 48px;
+}
+
+.form-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form-item input {
+    width: 100%;
+    border: 1px solid #f8f8f8;
+}
+
+/**======注册========*/
+.session {
+    margin-top: 160px;
+}
+.login-session{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.submit-button {
+    background-color: #ed0000;
+    font-size: 18px;
+    padding: 5px 16px;
+    color: #fff;
+    border-color: #fff;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.form-content{
+    width: 700px;
+    margin: auto;
+}

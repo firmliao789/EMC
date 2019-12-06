@@ -1,0 +1,213 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>EMC-收益明细</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
+
+    <!-- all css here -->
+
+    <!-- bootstrap v3.3.6 css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- meanmenu css -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- index css -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<!--[if lt IE 8]>
+<p class="browserupgrade">您的使用的是 <strong>过时的</strong>浏览器 请<a href="http://browsehappy.com/">升级
+    您的浏览器</a></p>
+<![endif]-->
+
+<div id="preloader"></div>
+<header class="header-one">
+    <!-- header-area start -->
+    <div id="sticker" class="header-area hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="center-bg">
+                        <div class="row">
+                            <!-- logo start -->
+                            <div class="col-md-3 col-sm-3">
+                                <div class="logo">
+                                    <!-- Brand -->
+                                    <a class="navbar-brand page-scroll black-logo" href="index.html">
+                                        <img src="img/logo/logo.png" alt="">
+                                    </a>
+                                </div>
+                                <!-- logo end -->
+                            </div>
+                            <div class="col-md-9 col-sm-9">
+                                <div class="header-right-link">
+                                    <!-- Start 未登录 -->
+                                    <a class="s-menu" href="login.html">登录</a>
+                                    <!-- End 未登录 -->
+                                    <!-- Start 登录后 -->
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default dropdown-toggle"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            测试用户<span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">用户编号:1111111</a></li>
+                                            <li><a href="#">会员等级：1</a></li>
+                                            <li><a href="#">总投资：100000</a></li>
+                                            <li><a href="#">总业绩:1000000</a></li>
+                                            <li><a href="#">总收益</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="./password.html" style="color: blue">修改密码</a></li>
+                                            <li><a href="#" style="color: red">退出</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- End 登录后 -->
+
+                                </div>
+                                <!-- mainmenu start -->
+                                <nav class="navbar navbar-default">
+                                    <div class="collapse navbar-collapse" id="navbar-example">
+                                        <div class="main-menu">
+                                            <ul class="nav navbar-nav navbar-right">
+                                                <li>
+                                                    <a class="pagess" href="./index.html#h1">我的投资</a>
+                                                </li>
+                                                <li><a href="./index.html#h2">我的收益</a></li>
+                                                <li><a href="./index.html#h3">我的业绩</a></li>
+                                                <li>
+                                                    <a class="pagess" href="./detail.html">我的账户</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                                <!-- mainmenu end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header-area end -->
+    <!-- mobile-menu-area start -->
+    <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mobile-menu">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo/logo.png" alt=""/></a>
+                        </div>
+                        <nav id="dropdown">
+                            <ul>
+                                <li><a class="pagess" href="./index.html#h1">我的投资</a></li>
+                                <li><a href="./index.html#h2">我的收益</a></li>
+                                <li><a href="./index.html#h3">我的业绩</a></li>
+                                <li><a class="pagess" href="./detail.html">我的账户</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mobile-menu-area end -->
+</header>
+
+<!-- Start 我的投资 -->
+<div class="session">
+    <div class="investment-area bg-color area-padding" id="h1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-headline text-center">
+                        <h3>收支明细</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="pricing-content">
+                        <table border="1">
+                            <thead>
+                            <tr>
+                                <td>序号</td>
+                                <td>金额</td>
+                                <td>Record Type</td>
+                                <td>操作类型</td>
+                                <td>账户类型</td>
+                                <td>账户余额</td>
+                                <td>入账时间</td>
+                                <td>摘要</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>1000u</td>
+                                <td>入账</td>
+                                <td>追加投资</td>
+                                <td>收益</td>
+                                <td>350000.00</td>
+                                <td>2019-09-02 00:00:00</td>
+                                <td>
+                                    追加投资扣除
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>1000u</td>
+                                <td>入账</td>
+                                <td>追加投资</td>
+                                <td>收益</td>
+                                <td>350000.00</td>
+                                <td>2019-09-02 00:00:00</td>
+                                <td>
+                                    追加投资扣除
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>1000u</td>
+                                <td>入账</td>
+                                <td>追加投资</td>
+                                <td>收益</td>
+                                <td>350000.00</td>
+                                <td>2019-09-02 00:00:00</td>
+                                <td>
+                                    追加投资扣除
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- End 我的投资 -->
+
+<!-- all js here -->
+
+<!-- jquery latest version -->
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- main js -->
+<script src="js/main.js"></script>
+</body>
+</html>
