@@ -118,14 +118,20 @@
 .login-session{
     display: flex;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 140px;
+}
+.login-session .form-group label{
+    color: #fff;
+}
+.login-session .section-headline h3{
+    color: #fff;
 }
 .submit-button {
     background-color: #ed0000;
+    border: 1px solid #ed0000;
     font-size: 18px;
     padding: 5px 16px;
     color: #fff;
-    border-color: #fff;
     margin-top: 20px;
     border-radius: 4px;
 }
@@ -133,4 +139,14 @@
 .form-content{
     width: 700px;
     margin: auto;
+}
+
+.page-bg{
+    background: url('../img/bannerbg.jpg');
+    background-size: cover;
+}
+.user-name{
+    border: none;
+    background: transparent;
+    color: #fff;
 }
